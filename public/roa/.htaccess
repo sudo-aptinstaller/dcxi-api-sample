@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^roa\.dcix\.in$
+RewriteRule ^/?$ "https\:\/\/sites\.google\.com\/view\/republicofarchives" [R=301,L]
+
